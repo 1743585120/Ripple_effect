@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_scale="6"
+        app:rb_duration="3000"
+        app:rb_rippleAmount="3"
+        app:rb_radius="15dp"
+        app:rb_color="#0099cc"
+        android:id="@+id/rbg">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher_round" />
+    </com.skyfishjy.library.RippleBackground>
+
+</android.support.constraint.ConstraintLayout>
